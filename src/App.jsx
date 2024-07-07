@@ -1,11 +1,11 @@
 import "./App.css";
-import Counter from "./Counter/Counter";
+import TaskList from "./components/TaskList/TaskList";
 
 function App() {
   return (
-    <div>
-      <Counter></Counter>
-    </div>
+    <>
+      <TaskList />
+    </>
   );
 }
 
